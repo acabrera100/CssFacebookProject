@@ -1,1 +1,126 @@
-something
+/* {
+  font-family:Lucida Grande;
+} */
+
+.facebook{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.Form{
+  font-family: Tahoma;
+}
+/* .main-area{
+  display: flex;
+  justify-content:center;
+  max-width: 700px;
+  width: 70%;
+} */
+/* .lsidebar{
+  width:20%;
+  height:300px;
+  background-color: #8b9dc3;
+} */
+.feed{
+  display: flex;
+  flex-wrap: wrap;
+  height: 570px;
+  width:1430px;
+  background-color:#f7f7f7;
+}
+/* .FbLogo{
+display: flex;
+justify-content: flex-end;
+
+} */
+/* .rsidebar{
+  width:20%;
+  height:500px;
+  background-color: #dfe3ee;
+} */
+.header{
+  display:grid;
+  grid-template-columns:25% 25% 50%;
+
+  background-color:#3b5998;
+  color: black;
+  max-height:90px;
+  width: 1430px;
+
+}
+#logo{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  font-family: Tahoma;
+  color: white;
+  font-size: 37px;
+}
+.logins{
+  padding-top: 3px;
+  display: grid;
+  grid-template: 30px 30px 30px / 25% 25% 40% ;
+  grid-column: 3;
+  align-items:center;
+  z-index: 1;
+  max-height: 90px;
+  color: white;
+  font-family: Tahoma;
+}
+
+.button1{
+background-color: #4060B8;
+color:white;
+width: 50px;
+height: 25px;
+font-style: bold;
+}
+ul  p{
+  list-style-type: none;
+  font-size: 20px;
+  padding-top: 10px;
+  font-family: Tahoma;
+}
+ul{
+  list-style: none;
+}
+#FeedLi{
+  padding-top: 80px;
+  font-weight: bold;
+  font-family: Tahoma;
+  font-size: 25px;
+
+}
+.Right-Side {
+display:flex;
+flex-direction: column;
+padding-top: 50px;
+padding-left: 160px;
+/* align-self:flex-end; */
+}
+#Sign{
+  font-family: Tahoma;
+  font-weight: bold;
+  font-size: 35px;
+  color:#000000;
+  opacity: .8;
+
+}
+#Free{
+  font-family: Tahoma;
+  font-size: 20px;
+  color:#000000;
+  opacity: .7;
+}
+.Rforms{
+  padding-bottom: 5px
+}
+
+}
+.footers {
+background-color:grey;
+
+padding: 10px;
+z-index: 1;
+}
