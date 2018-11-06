@@ -114,12 +114,25 @@ padding-left: 160px;
   opacity: .7;
 }
 .Rforms{
-  padding-bottom: 5px
+  margin: 5px;
 }
-
+#bday{
+  padding-bottom:25px;
+  float: right;
+  margin: 0;
+  font-size: 11px;
+  max-width: 150px;
+  padding-right: 95px;
+}
+}
+.Gender{
+  height: 20;
+}
+#Policy{
+  font-size: 13px;
 }
 .footers {
-background-color:grey;
+background-color:#8b9dc3;
 
 padding: 10px;
 z-index: 1;
