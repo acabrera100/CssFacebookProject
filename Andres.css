@@ -10,17 +10,7 @@
 .Form{
   font-family: Tahoma;
 }
-/* .main-area{
-  display: flex;
-  justify-content:center;
-  max-width: 700px;
-  width: 70%;
-} */
-/* .lsidebar{
-  width:20%;
-  height:300px;
-  background-color: #8b9dc3;
-} */
+
 .feed{
   display: flex;
   flex-wrap: wrap;
@@ -28,16 +18,6 @@
   width:1430px;
   background-color:#f7f7f7;
 }
-/* .FbLogo{
-display: flex;
-justify-content: flex-end;
-
-} */
-/* .rsidebar{
-  width:20%;
-  height:500px;
-  background-color: #dfe3ee;
-} */
 .header{
   display:grid;
   grid-template-columns:25% 25% 50%;
@@ -60,7 +40,7 @@ justify-content: flex-end;
 .logins{
   padding-top: 3px;
   display: grid;
-  grid-template: 30px 30px 30px / 25% 25% 40% ;
+  grid-template: 30px 30px 30px / 25% 20% 50% ;
   grid-column: 3;
   align-items:center;
   z-index: 1;
@@ -68,13 +48,20 @@ justify-content: flex-end;
   color: white;
   font-family: Tahoma;
 }
+#acct{
+  font-size: 12px;
+  opacity: .4;
+  padding-bottom: 10px;
+}
 
 .button1{
 background-color: #4060B8;
 color:white;
 width: 50px;
 height: 25px;
-font-style: bold;
+font-weight: bold;
+border: 1px solid #ccd0d5;
+
 }
 ul  p{
   list-style-type: none;
@@ -114,7 +101,7 @@ padding-left: 160px;
   opacity: .7;
 }
 .Rforms{
-  margin: 5px;
+padding-bottom: 10px;
 }
 #bday{
   padding-bottom:25px;
@@ -124,15 +111,60 @@ padding-left: 160px;
   max-width: 150px;
   padding-right: 95px;
 }
+#birfday{
+  font-weight: 400;
+  font-size: 20px;
+}
 }
 .Gender{
-  height: 20;
+  padding-bottom: px;
 }
 #Policy{
   font-size: 13px;
 }
+#button2{
+  background-color:#69a74e;
+  color: white;
+  font-size: 19px;
+  font-family: Tahoma;
+  width: 194px;
+  padding: 7px 20px;
+  text-align: center;
+  background: linear-gradient(#67ae55, #578843);
+  background-color: #69a74e;
+  box-shadow: inset 0 1px 1px #a4e388;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  margin-top: 10px;
+margin-bottom: 10px;
+border: 1px solid;
+border-radius: 5px;
+color: #fff;
+cursor: pointer;
+display: inline-block;
+letter-spacing: 1px;
+position: relative;
+text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+#band{
+  font-weight: bold;
+  color:#666;
+}
+a{
+  color:#365899;
+  text-decoration: none;
+  font-weight: bold;
+}
+#contentcurve{
+  border-bottom: 1px solid #dddfe2;
+font-size: 1px;
+height: 8px;
+margin-bottom: 8px;
+}
 .footers {
-background-color:#8b9dc3;
+  text-align: center;
+  color:#3b5998;
+  font-size: 14px;
+background-color:#f7f7f8;
 
 padding: 10px;
 z-index: 1;
