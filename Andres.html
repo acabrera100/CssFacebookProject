@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Third Eye</title>
+    <link rel="shortcut icon" type="image/x-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAaVBMVEU6VZ////81Up0yT5xgc61+jbsvTZyXo8hFXaOirM0nSJmlrs7O1OUkRpkfQ5doerLr7fTHzeE9WKHV2umHlcDy9Pnd4eyut9O1vtdZbat5ibmWoceGk7/M0eSrs9G/xtxMY6ZvgLVIYaWJ8OFBAAAC40lEQVR4nO3c63KqMBRAYU9iqaLg/d7W2vd/yE5nzt/ihjTsvTNrPQDDNxIDJDqZEBERERERERERERERERFZL4QYqydF7ZMcXKyadju97m/zzhZ7n8SqCY/T8Z+kXa19sv2LdbztRLqflu6EsXm8i3kOhbF9WffxeROG9tHT50xYbTd9fb6E7Vt/nydhqO9DgH6EcdZ7BPoSVpdhPjfCajUU6EQYhwN9COPncKALYdgeChe2socIv8LmnAJ0IIzXJKADYZMyCD0IE69R+8Iw+F7Gi7CVv67wKQzTVKB1YbMsXBhSbtdcCOtT6cLUudC8MD7SgbaFdepsb17YDHw140YYZn8ANC2M+78QWl57qvoMw8PuvHC3fljL70k3q7qu/a0Bt9LZ8HhpgvbJDioKgffWp28SvqRA7TMdmvDJ6egWKBV+Ob1EJ1LhyfB09yyZ0PFHKBMeG+3TTEgkPFXap5mQSGj5nuxpIuELQsshRGg/hAjthxCh/RAitB9ChPZDiNB+CBHarwxh6PiJci3ZWnptnv3SWRm4ev2920IgPN86jvDTfKsqrD4EiMR0V98qyceU1kF3iXgEofLy2wjCe/FX6Yful+kIwn3xwpXuOv8Iws/ihcr3NPmFa+UdU/mFS+XdKPmFZ+UtU/mFr8WPQ+3nx/zCi/K2t/xC7VcA2YUH7b2Z2YXqWxezCzfFf4bqmzOzC2/Ff9M8ihdqT4f5hdrDMLtQ+VXiCEL93x7mFiq/ShxBOC9+HL5pTxbZhVPtySK7UNuXXXhQH4a5hWvtZ6fswnf1ySL3GvBZ/yqdbGcdSf4O8q3rCLpL+P8LvxdFu02qjiNo455Vxn6arhAitB9ChPZDiNB+CBHaDyFC+yFEaD+ECO2HEKH9ECK0H0KE9kOI0H4IEdoPIUL7IURoP4QI7YcQof0QIrQfQoT2Q4jQfggR2g8hQvshRGg/hAjthxCh/RAitB9ChPZDiNB+CBH26BsaQkVVLImVewAAAABJRU5ErkJggg==" />
     <link rel="stylesheet" href="./Andres.css">
   </head>
   <body>
@@ -42,71 +43,72 @@
 
 
           <div class="Right-Side">
+
             <div>
             <p id = "Sign">  Sign up</p>
             <p id = "Free"> It will always be free</p>
             </div>
+
             <div class="Rforms">
               <form class ="Form">
                 <label for="First Name"></label>
-                <input type="text" id="fname" name="fname" size="20" placeholder="First Name">
+                <input type="text" class="name" name="fname" size="17" placeholder="First Name">
                 <label for="Last Name"></label>
-                <input type="text" id="Lname" name="Lname" size="20" placeholder="Last Name">
-              </form>
+                <input type="text" class="name" name="Lname" size="17" placeholder="Last Name">
             </div>
+
             <div class="Rforms">
               <form id = "mobile">
-                <label for="fname"></label>
-                <input type="text" id="fname" name="fname" size="43" placeholder="Mobile Number or Email">
-              </form>
-
-             </div>
-            <div class ="Rforms">
-
-              <form id = "Password">
-                <label for="fname"></label>
-                <input type="text" id="fname" name="fname" size="43" placeholder="New Password">
+                <label for="mobile"></label>
+                <input type="text" id="mobile" name="mobile" size="36" placeholder="Mobile Number or Email">
               </form>
             </div>
+
+            <div class ="Rforms">
+            <form id = "Password">
+                <label for="Password"></label>
+                <input type="password" id="pass" name="Password" size="36" placeholder="New Password">
+              </form>
+            </div>
+
             <div id ="bdayInput">
-              <p id = "birfday">Birthday</p>
-              <select>
-  <option value="Ruary">NewYear</option>
-  <option value="Colder">GroundHog</option>
-  <option value="Spring">Windy</option>
-  <option value="May">Spring</option>
-</select>
-<select>
-  <option value="volvo">HateIt</option>
-  <option value="saab">2day</option>
-  <option value="opel">Humpday</option>
-  <option value="audi">TheDay</option>
-  <option value="audi">FriYAY</option>
-</select>
-<select>
-  <option value="volvo">1776</option>
-  <option value="saab">Murica</option>
-  <option value="opel">WW2</option>
-  <option value="audi">Future</option>
-</select>
-<p id="bday">Why do I need to provide my Bday?</p>
+            <p id = "birfday">Birthday</p>
+            <select>
+            <option value="Ruary">NewYear</option>
+            <option value="Colder">GroundHog</option>
+            <option value="Spring">Windy</option>
+            <option value="May">Spring</option>
+            </select>
+            <select>
+            <option value="volvo">HateIt</option>
+            <option value="saab">2day</option>
+            <option value="opel">Humpday</option>
+            <option value="audi">TheDay</option>
+            <option value="audi">FriYAY</option>
+            </select>
+            <select>
+            <option value="volvo">1776</option>
+            <option value="saab">Murica</option>
+            <option value="opel">WW2</option>
+            <option value="audi">Future</option>
+            </select>
+            <p id="bday">Why do I need to provide my Bday?</p>
               </div>
+
             <div>
             <form class="Gender">
             <input type="radio" name="gender" value="Female" checked> Female
             <input type="radio" name="gender" value="Male"> Male
-
             </form>
-
             </div>
+
             <div id ="Policy"> By clicking Sign Up, you agree to our Terms, Data Policy <br> and Cookies Policy.You may receive SMS Notifications from us <br> and can opt out any time.
             </div>
             <button id = "button2">Sign up</button>
             <div class="contentcurve">
-
             </div>
+            <p id="band"><a href="https://www.facebook.com/pages/creation/?ref_type=registration_form">Create a Page</a> for a celebrity, band or business.</p>
 
-              <p id="band"><a href="https://www.facebook.com/pages/creation/?ref_type=registration_form">Create a Page</a> for a celebrity, band or business.</p>
             </div>
 
               </div>

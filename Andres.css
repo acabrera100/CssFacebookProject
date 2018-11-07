@@ -79,12 +79,11 @@ ul{
   font-size: 25px;
 
 }
-.Right-Side {
+/* .Right-Side {
 display:flex;
 flex-direction: column;
 padding-top: 50px;
 padding-left: 160px;
-/* align-self:flex-end; */
 }
 #Sign{
   font-family: Tahoma;
@@ -104,14 +103,13 @@ padding-left: 160px;
 padding-bottom: 10px;
 }
 #bday{
-  padding-bottom:25px;
-  float: right;
-  margin: 0;
+  display: inline-block;
   font-size: 11px;
   max-width: 150px;
-  padding-right: 95px;
+  vertical-align: middle;
 }
 #birfday{
+  margin-top:
   font-weight: 400;
   font-size: 20px;
 }
@@ -159,6 +157,104 @@ a{
 font-size: 1px;
 height: 8px;
 margin-bottom: 8px;
+} */
+.Right-Side {
+display:flex;
+flex-direction: column;
+padding-top: 50px;
+padding-left: 160px;
+}
+.Rforms{
+  margin: 0;
+}
+.name{
+  height: 22px;
+  font-size: 20px;
+  opacity: .5
+}
+#mobile{
+  height: 22px;
+  font-size: 20px;
+  opacity: .5;
+}
+#pass{
+  height: 22px;
+  font-size: 20px;
+  opacity: .5;
+}
+
+#Sign{
+  font-family: Tahoma;
+  font-weight: bold;
+  font-size: 35px;
+  color:#000000;
+  opacity: .8;
+
+}
+#Free{
+  font-family: Tahoma;
+  font-size: 20px;
+  color:#000000;
+  opacity: .7;
+}
+
+#bday{
+  display: inline-block;
+  font-size: 11px;
+  max-width: 150px;
+  vertical-align: middle;
+}
+#birfday{
+  margin:0;
+  font-weight: 400;
+  font-size: 20px;
+}
+}
+.Gender{
+margin-top: 10px;
+margin-right:10px;
+}
+#Policy{
+  font-size: 13px;
+}
+#button2{
+  background-color:#69a74e;
+  color: white;
+  font-size: 19px;
+  font-family: Tahoma;
+  width: 194px;
+  padding: 7px 20px;
+  text-align: center;
+  background: linear-gradient(#67ae55, #578843);
+  background-color: #69a74e;
+  box-shadow: inset 0 1px 1px #a4e388;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  margin-top: 10px;
+margin-bottom: 10px;
+border: 1px solid;
+border-radius: 5px;
+color: #fff;
+cursor: pointer;
+display: inline-block;
+letter-spacing: 1px;
+position: relative;
+text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+#band{
+  font-weight: bold;
+  color:#666;
+}
+a{
+  color:#365899;
+  text-decoration: none;
+  font-weight: bold;
+}
+.contentcurve{
+  border-bottom: 1px solid #dddfe2;
+font-size: 1px;
+height: 8px;
+margin-bottom: 8px;
+width:390px;
 }
 .footers {
   text-align: center;
